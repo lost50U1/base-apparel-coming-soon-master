@@ -212,13 +212,13 @@ img {
 
   .logo {
     grid-row: 1;
-    width: 55%;
+    width: 50%;
     margin: 3.5rem auto;
   }
 
   .hero {
     grid-row: 1;
-    width: 55%;
+    width: 50%;
     margin: 0 auto;
   }
 
