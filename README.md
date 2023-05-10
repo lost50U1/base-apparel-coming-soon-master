@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Website](https://www.frontendmentor.io/solutions/responsive-product-preview-card-component-4aXQB8D2cj)
-- Live Site URL: [Website](https://lost50u1.github.io/product-preview-card-component-main/)
+- Solution URL: [Website](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-with-basic-js-rU6PgYZMHJ)
+- Live Site URL: [Website](https://lost50u1.github.io/base-apparel-coming-soon-master/)
 
 ## My process
 
