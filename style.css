@@ -85,9 +85,12 @@ body {
   font-size: var(--font-size);
 }
 
+/* logo  */
+
 .logo {
   margin: 2rem 0;
   margin-left: 2rem;
+  grid-row: 1;
 }
 
 .logo__img {
@@ -101,16 +104,19 @@ body {
   height: 100vh;
 }
 
-.logo {
-  grid-row: 1;
-}
-
+/* picture  */
 picture {
   grid-row: 2;
   display: flex;
   -o-object-fit: contain;
   object-fit: contain;
 }
+
+img {
+  width: 100%;
+}
+
+/* hero section  */
 
 .hero {
   margin: 0 1.7em;
@@ -145,6 +151,7 @@ form {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 0.5em;
 }
 
 input[type="email"] {
@@ -197,8 +204,19 @@ button:hover {
   background-color: var(--button-active);
 }
 
-img {
-  width: 100%;
+/* error styling for js */
+
+#error {
+  color: var(--desaturated-red);
+  margin-left: 2em;
+}
+
+#error2 {
+  color: var(--soft-red);
+  position: relative;
+  top: 0;
+  right: 100px;
+  display: none;
 }
 
 @media only screen and (min-width: 600px) {
