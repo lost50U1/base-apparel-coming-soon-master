@@ -14,16 +14,21 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <!-- google materials icon  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <main>
-      <div class="logo">
-        <img class="logo__img" src="/images/logo.svg" alt="logo" />
-      </div>
-
-      <div class="flex">
-        <div>
+    <main class="grid">
+      <div class="col1">
+        <div class="logo">
+          <img class="logo__img" src="/images/logo.svg" alt="logo" />
+        </div>
+        <div class="hero">
           <h1>
             <span class="pink">We're</span> <span>coming</span>
             <span>soon</span>
@@ -35,14 +40,17 @@
           </p>
           <form action="">
             <input type="email" placeholder="Email Address" />
-            <button type="submit">></button>
+            <button type="submit">
+              <span class="material-symbols-outlined"> arrow_forward_ios </span>
+            </button>
           </form>
         </div>
-        <picture>
-          <source srcset="images/hero-desktop.jpg" media="(min-width: 600px)" />
-          <img src="/images/hero-mobile.jpg" alt="pic" />
-        </picture>
       </div>
+
+      <picture>
+        <source srcset="images/hero-desktop.jpg" media="(min-width: 600px)" />
+        <img src="/images/hero-mobile.jpg" alt="pic" />
+      </picture>
     </main>
   </body>
 </html>
